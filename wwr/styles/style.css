@@ -6,6 +6,10 @@
     margin: 0 auto;
 }
 
+body {
+    font-family: 'Rock Salt', 'Arial Narrow', Arial, sans-serif;
+}
+
 nav a {
     text-align: center;
     color:blue ;
@@ -106,7 +110,7 @@ h4 {
     color:black ;
 }
 
-.msg h2 {
+.msg {
     background-color: blueviolet;
     color: black;
 }
@@ -114,7 +118,7 @@ h4 {
 .msg p {
     background-color: blueviolet;
     color:black;
-    font-size: 8em;
+    font-size: 1em;
     padding-bottom: 15px;
 }
 
@@ -171,7 +175,7 @@ footer .social img {
 }
 
 .card-img {
-    border: 10px;
+    border: 10px solid #d9c2a3;
 }
 
 main section img {
