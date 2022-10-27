@@ -30,6 +30,11 @@ header {
     grid-template-columns: 150px auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
 nav a:hover {
     background-color:blue ;
     color: black;
@@ -89,8 +94,8 @@ footer {
 }
 
 .home-grid {
-display: grid;
-grid-template-columns: 10fr;
+    display: grid;
+    grid-template-columns: 10fr;
 }
 
 .card-img, .mountains {
@@ -268,8 +273,6 @@ nav a {
     color:blue ;
     text-decoration: none;
     padding: 35px;
-    display: flex;
-    justify-content: space-around;
 }
 
 #hero-msg {
