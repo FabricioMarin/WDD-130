@@ -10,6 +10,10 @@
     color: black;
 }
 
+#hero-img {
+    width: 100%;
+}
+
 .button-box {
     text-align: center;
 }
@@ -95,7 +99,7 @@ footer {
 
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(10fr, 1fr);
+    grid-template-columns: repeat(10, 1fr);
 }
 
 .card-img, .mountains {
